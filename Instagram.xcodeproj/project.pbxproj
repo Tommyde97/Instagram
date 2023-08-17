@@ -11,6 +11,8 @@
 		7200E3782A8584DC00C07B73 /* FeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E3772A8584DC00C07B73 /* FeedPostHeaderTableViewCell.swift */; };
 		7200E37A2A8584FD00C07B73 /* FeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E3792A8584FD00C07B73 /* FeedPostActionsTableViewCell.swift */; };
 		7200E37C2A85851500C07B73 /* FeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E37B2A85851500C07B73 /* FeedPostGeneralTableViewCell.swift */; };
+		72268F7D2A8EA8CD000F3A9C /* UserFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72268F7C2A8EA8CD000F3A9C /* UserFollowTableViewCell.swift */; };
+		72268F7F2A8EBD4B000F3A9C /* NoNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72268F7E2A8EBD4B000F3A9C /* NoNotificationsView.swift */; };
 		72329D952A8AB5FD00360577 /* FormTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72329D942A8AB5FD00360577 /* FormTableViewCell.swift */; };
 		72329D982A8AC93500360577 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72329D972A8AC93500360577 /* PhotoCollectionViewCell.swift */; };
 		72329D9A2A8AC98E00360577 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72329D992A8AC98E00360577 /* ProfileInfoHeaderCollectionReusableView.swift */; };
@@ -51,6 +53,8 @@
 		7200E3772A8584DC00C07B73 /* FeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		7200E3792A8584FD00C07B73 /* FeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
 		7200E37B2A85851500C07B73 /* FeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		72268F7C2A8EA8CD000F3A9C /* UserFollowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFollowTableViewCell.swift; sourceTree = "<group>"; };
+		72268F7E2A8EBD4B000F3A9C /* NoNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNotificationsView.swift; sourceTree = "<group>"; };
 		72329D942A8AB5FD00360577 /* FormTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		72329D972A8AC93500360577 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		72329D992A8AC98E00360577 /* ProfileInfoHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 				7200E3762A8584BD00C07B73 /* Home Feed */,
 				72329D942A8AB5FD00360577 /* FormTableViewCell.swift */,
 				72329D972A8AC93500360577 /* PhotoCollectionViewCell.swift */,
+				72268F7C2A8EA8CD000F3A9C /* UserFollowTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				7200E3732A85832F00C07B73 /* Cells */,
 				729256CB2A82D4CA00821592 /* Assets.xcassets */,
 				729256DA2A82D55700821592 /* Storyboards */,
+				72268F7E2A8EBD4B000F3A9C /* NoNotificationsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -401,8 +407,10 @@
 				7200E3752A85836900C07B73 /* FeedPostTableViewCell.swift in Sources */,
 				729256DC2A82D5B900821592 /* ExploreViewController.swift in Sources */,
 				72329D952A8AB5FD00360577 /* FormTableViewCell.swift in Sources */,
+				72268F7F2A8EBD4B000F3A9C /* NoNotificationsView.swift in Sources */,
 				729256E92A82D66C00821592 /* RegistrationViewController.swift in Sources */,
 				729256C02A82D4C800821592 /* AppDelegate.swift in Sources */,
+				72268F7D2A8EA8CD000F3A9C /* UserFollowTableViewCell.swift in Sources */,
 				7292570A2A83EFB000821592 /* Extensions.swift in Sources */,
 				729256F12A82D6C100821592 /* ListViewController.swift in Sources */,
 				72329D9A2A8AC98E00360577 /* ProfileInfoHeaderCollectionReusableView.swift in Sources */,

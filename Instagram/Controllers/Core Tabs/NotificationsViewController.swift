@@ -16,9 +16,11 @@ class NotificationsViewController: UIViewController, UITableViewDelegate, UITabl
         return tableView
     }()
     
+    private let noNotificationsView = UIView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Notifications"
+        navigationItem.title = "Notifications"
         view.backgroundColor = .systemBackground
         view.addSubview(tableView)
         tableView.delegate = self
