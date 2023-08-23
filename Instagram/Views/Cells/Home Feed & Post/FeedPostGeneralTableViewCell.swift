@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 /// Comments
 class FeedPostGeneralTableViewCell: UITableViewCell {
 
@@ -15,7 +14,7 @@ class FeedPostGeneralTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.backgroundColor = .systemOrange
+        contentView.backgroundColor = .secondaryLabel
     }
     
     required init?(coder: NSCoder) {
