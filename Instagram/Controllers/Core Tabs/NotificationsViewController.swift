@@ -83,6 +83,7 @@ final class NotificationsViewController: UIViewController, UITableViewDelegate, 
                                 createdDate: Date(),
                                 taggedUsers: [],
                                 owner: user)
+            
             let model = UserNotification(type: x % 2 == 0 ? .like(post: post) : .follow(state: .not_following),
                                          text: "Hello World",
                                          user: user)
